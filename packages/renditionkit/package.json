@@ -1,6 +1,6 @@
 {
   "name": "renditionkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extensible background processing for image and video renditions.",
   "type": "module",
   "license": "MIT",
@@ -59,7 +59,7 @@
     "@types/pg": "^8.15.5",
     "bullmq": "^5.61.2",
     "pg": "^8.16.3",
-    "sharp": "^0.34.4",
+    "sharp": "^0.35.5",
     "thumbhash": "^0.1.1"
   },
   "devDependencies": {

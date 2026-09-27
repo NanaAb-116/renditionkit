@@ -1,6 +1,6 @@
 {
   "name": "@renditionkit/image",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sharp-based image inspection and responsive rendition engine for RenditionKit.",
   "type": "module",
   "license": "MIT",
@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@renditionkit/core": "workspace:^",
-    "sharp": "^0.34.4",
+    "sharp": "^0.35.5",
     "thumbhash": "^0.1.1"
   },
   "publishConfig": {

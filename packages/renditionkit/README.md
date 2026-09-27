@@ -14,5 +14,6 @@ import { createS3Storage } from "renditionkit/storage-s3";
 import { PostgresAssetRepository } from "renditionkit/repository-postgres";
 ```
 
-Individual `@renditionkit/*` packages remain available for applications that
-want a smaller dependency graph.
+The repository uses `@renditionkit/*` workspace packages internally. The public
+`renditionkit` package bundles those APIs behind the subpath imports shown above,
+so consumers do not need separately published scoped packages.

@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import sharp, { type Sharp } from "sharp";
+import sharp, { type OutputInfo, type Sharp } from "sharp";
 import { rgbaToThumbHash } from "thumbhash";
 import {
   MediaRejectedError,
@@ -91,7 +91,7 @@ function encode(
   pipeline: Sharp,
   format: ImageRenditionFormat,
   quality: number,
-): Promise<{ data: Buffer; info: sharp.OutputInfo }> {
+): Promise<{ data: Buffer; info: OutputInfo }> {
   switch (format) {
     case "avif":
       return pipeline
