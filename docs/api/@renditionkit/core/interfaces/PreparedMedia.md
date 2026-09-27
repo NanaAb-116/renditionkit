@@ -6,7 +6,7 @@
 
 # Interface: PreparedMedia
 
-Defined in: [packages/core/src/types.ts:73](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L73)
+Defined in: [packages/core/src/types.ts:73](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L73)
 
 Engine-owned prepared state. An image engine can retain a bounded buffer;
 a video engine can retain a temporary file path and dispose it afterward.
@@ -17,7 +17,7 @@ a video engine can retain a temporary file path and dispose it afterward.
 
 > **checksum**: `string`
 
-Defined in: [packages/core/src/types.ts:74](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L74)
+Defined in: [packages/core/src/types.ts:74](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L74)
 
 ---
 
@@ -25,7 +25,7 @@ Defined in: [packages/core/src/types.ts:74](https://github.com/NanaAb-116/rendit
 
 > **inspection**: [`MediaInspection`](MediaInspection.md)
 
-Defined in: [packages/core/src/types.ts:76](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L76)
+Defined in: [packages/core/src/types.ts:76](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L76)
 
 ---
 
@@ -33,7 +33,7 @@ Defined in: [packages/core/src/types.ts:76](https://github.com/NanaAb-116/rendit
 
 > **sourceBytes**: `number`
 
-Defined in: [packages/core/src/types.ts:75](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L75)
+Defined in: [packages/core/src/types.ts:75](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L75)
 
 ## Methods
 
@@ -41,7 +41,7 @@ Defined in: [packages/core/src/types.ts:75](https://github.com/NanaAb-116/rendit
 
 > `optional` **dispose**(): [`Awaitable`](../type-aliases/Awaitable.md)\<`void`\>
 
-Defined in: [packages/core/src/types.ts:78](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L78)
+Defined in: [packages/core/src/types.ts:78](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L78)
 
 #### Returns
 
@@ -53,7 +53,7 @@ Defined in: [packages/core/src/types.ts:78](https://github.com/NanaAb-116/rendit
 
 > **transform**(`emit`): `Promise`\<[`TransformResult`](TransformResult.md)\>
 
-Defined in: [packages/core/src/types.ts:77](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L77)
+Defined in: [packages/core/src/types.ts:77](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L77)
 
 #### Parameters
 

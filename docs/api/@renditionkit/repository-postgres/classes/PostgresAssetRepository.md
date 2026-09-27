@@ -6,7 +6,7 @@
 
 # Class: PostgresAssetRepository
 
-Defined in: repository-postgres/src/index.ts:125
+Defined in: [repository-postgres/src/index.ts:125](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L125)
 
 Application persistence boundary. RenditionKit never assumes a database schema.
 
@@ -20,7 +20,7 @@ Application persistence boundary. RenditionKit never assumes a database schema.
 
 > **new PostgresAssetRepository**(`database`, `options?`): `PostgresAssetRepository`
 
-Defined in: repository-postgres/src/index.ts:129
+Defined in: [repository-postgres/src/index.ts:129](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L129)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: repository-postgres/src/index.ts:129
 
 > **create**(`input`): `Promise`\<[`PostgresAssetRecord`](../interfaces/PostgresAssetRecord.md)\>
 
-Defined in: repository-postgres/src/index.ts:134
+Defined in: [repository-postgres/src/index.ts:134](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L134)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: repository-postgres/src/index.ts:134
 
 > **findDuplicate**(`asset`, `checksum`): `Promise`\<`string` \| `null`\>
 
-Defined in: repository-postgres/src/index.ts:272
+Defined in: [repository-postgres/src/index.ts:272](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L272)
 
 Omit to disable source-checksum deduplication.
 
@@ -88,7 +88,7 @@ Omit to disable source-checksum deduplication.
 
 > **get**(`assetId`): `Promise`\<[`MediaAsset`](../../core/interfaces/MediaAsset.md) \| `null`\>
 
-Defined in: repository-postgres/src/index.ts:160
+Defined in: [repository-postgres/src/index.ts:160](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L160)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: repository-postgres/src/index.ts:160
 
 > **getRecord**(`assetId`): `Promise`\<[`PostgresAssetRecord`](../interfaces/PostgresAssetRecord.md) \| `null`\>
 
-Defined in: repository-postgres/src/index.ts:152
+Defined in: [repository-postgres/src/index.ts:152](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L152)
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: repository-postgres/src/index.ts:152
 
 > **markFailed**(`assetId`, `failure`): `Promise`\<`void`\>
 
-Defined in: repository-postgres/src/index.ts:255
+Defined in: [repository-postgres/src/index.ts:255](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L255)
 
 Must not overwrite a row that has already reached its successful terminal state.
 
@@ -156,7 +156,7 @@ Must not overwrite a row that has already reached its successful terminal state.
 
 > **markProcessing**(`asset`, `context`): `Promise`\<`boolean`\>
 
-Defined in: repository-postgres/src/index.ts:174
+Defined in: [repository-postgres/src/index.ts:174](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L174)
 
 Return false when another attempt or a terminal state owns the asset.
 
@@ -184,7 +184,7 @@ Return false when another attempt or a terminal state owns the asset.
 
 > **markReady**(`asset`, `ready`, `_context`): `Promise`\<`void`\>
 
-Defined in: repository-postgres/src/index.ts:192
+Defined in: [repository-postgres/src/index.ts:192](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L192)
 
 #### Parameters
 
@@ -214,7 +214,7 @@ Defined in: repository-postgres/src/index.ts:192
 
 > **markRejected**(`asset`, `rejection`, `_context`): `Promise`\<`void`\>
 
-Defined in: repository-postgres/src/index.ts:235
+Defined in: [repository-postgres/src/index.ts:235](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L235)
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: repository-postgres/src/index.ts:235
 
 > **reapStalled**(`before`): `Promise`\<`number`\>
 
-Defined in: repository-postgres/src/index.ts:286
+Defined in: [repository-postgres/src/index.ts:286](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L286)
 
 Optional hard-kill recovery hook. Mark attempts started before `before` as
 failed, without overwriting assets that have since become ready.

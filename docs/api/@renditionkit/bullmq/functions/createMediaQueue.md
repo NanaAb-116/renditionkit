@@ -8,7 +8,7 @@
 
 > **createMediaQueue**(`options`): [`MediaQueue`](../interfaces/MediaQueue.md)
 
-Defined in: [queue.ts:33](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/queue.ts#L33)
+Defined in: [queue.ts:33](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/queue.ts#L33)
 
 ## Parameters
 

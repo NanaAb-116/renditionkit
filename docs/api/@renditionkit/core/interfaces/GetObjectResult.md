@@ -6,7 +6,7 @@
 
 # Interface: GetObjectResult
 
-Defined in: [packages/core/src/types.ts:140](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L140)
+Defined in: [packages/core/src/types.ts:140](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L140)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:140](https://github.com/NanaAb-116/rendi
 
 > **body**: `Uint8Array`
 
-Defined in: [packages/core/src/types.ts:141](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L141)
+Defined in: [packages/core/src/types.ts:141](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L141)
 
 ---
 
@@ -22,4 +22,4 @@ Defined in: [packages/core/src/types.ts:141](https://github.com/NanaAb-116/rendi
 
 > `optional` **contentType?**: `string`
 
-Defined in: [packages/core/src/types.ts:142](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L142)
+Defined in: [packages/core/src/types.ts:142](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L142)

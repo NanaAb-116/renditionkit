@@ -6,7 +6,7 @@
 
 # Interface: ProcessingHooks
 
-Defined in: [packages/core/src/types.ts:169](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L169)
+Defined in: [packages/core/src/types.ts:169](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L169)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:169](https://github.com/NanaAb-116/rendi
 
 > `optional` **onReady**(`asset`, `ready`): [`Awaitable`](../type-aliases/Awaitable.md)\<`void`\>
 
-Defined in: [packages/core/src/types.ts:170](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L170)
+Defined in: [packages/core/src/types.ts:170](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L170)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [packages/core/src/types.ts:170](https://github.com/NanaAb-116/rendi
 
 > `optional` **onRejected**(`asset`, `rejection`): [`Awaitable`](../type-aliases/Awaitable.md)\<`void`\>
 
-Defined in: [packages/core/src/types.ts:171](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L171)
+Defined in: [packages/core/src/types.ts:171](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L171)
 
 #### Parameters
 

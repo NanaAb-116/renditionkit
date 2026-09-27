@@ -8,7 +8,7 @@
 
 > **Awaitable**\<`T`\> = `T` \| `Promise`\<`T`\>
 
-Defined in: [packages/core/src/types.ts:1](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L1)
+Defined in: [packages/core/src/types.ts:1](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L1)
 
 ## Type Parameters
 

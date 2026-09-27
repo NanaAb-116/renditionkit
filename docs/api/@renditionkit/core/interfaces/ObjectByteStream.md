@@ -6,7 +6,7 @@
 
 # Interface: ObjectByteStream
 
-Defined in: [packages/core/src/types.ts:55](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L55)
+Defined in: [packages/core/src/types.ts:55](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L55)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:55](https://github.com/NanaAb-116/rendit
 
 > **body**: `AsyncIterable`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 
-Defined in: [packages/core/src/types.ts:56](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L56)
+Defined in: [packages/core/src/types.ts:56](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L56)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/types.ts:56](https://github.com/NanaAb-116/rendit
 
 > `optional` **contentLength?**: `number`
 
-Defined in: [packages/core/src/types.ts:58](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L58)
+Defined in: [packages/core/src/types.ts:58](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L58)
 
 ---
 
@@ -30,4 +30,4 @@ Defined in: [packages/core/src/types.ts:58](https://github.com/NanaAb-116/rendit
 
 > `optional` **contentType?**: `string`
 
-Defined in: [packages/core/src/types.ts:57](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L57)
+Defined in: [packages/core/src/types.ts:57](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L57)

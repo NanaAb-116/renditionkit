@@ -6,7 +6,7 @@
 
 # Interface: MediaEngine
 
-Defined in: [packages/core/src/types.ts:82](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L82)
+Defined in: [packages/core/src/types.ts:82](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L82)
 
 A media-specific engine. Queue, storage, and database concerns stay outside it.
 
@@ -16,7 +16,7 @@ A media-specific engine. Queue, storage, and database concerns stay outside it.
 
 > `readonly` **mediaType**: `string`
 
-Defined in: [packages/core/src/types.ts:83](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L83)
+Defined in: [packages/core/src/types.ts:83](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L83)
 
 ---
 
@@ -24,7 +24,7 @@ Defined in: [packages/core/src/types.ts:83](https://github.com/NanaAb-116/rendit
 
 > `readonly` **renditionVersion**: `number`
 
-Defined in: [packages/core/src/types.ts:85](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L85)
+Defined in: [packages/core/src/types.ts:85](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L85)
 
 Increment when key-compatible output semantics change.
 
@@ -34,7 +34,7 @@ Increment when key-compatible output semantics change.
 
 > **prepare**(`asset`, `source`): `Promise`\<[`PreparedMedia`](PreparedMedia.md)\>
 
-Defined in: [packages/core/src/types.ts:86](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L86)
+Defined in: [packages/core/src/types.ts:86](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L86)
 
 #### Parameters
 

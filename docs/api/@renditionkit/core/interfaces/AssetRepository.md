@@ -6,7 +6,7 @@
 
 # Interface: AssetRepository
 
-Defined in: [packages/core/src/types.ts:112](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L112)
+Defined in: [packages/core/src/types.ts:112](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L112)
 
 Application persistence boundary. RenditionKit never assumes a database schema.
 
@@ -16,7 +16,7 @@ Application persistence boundary. RenditionKit never assumes a database schema.
 
 > `optional` **findDuplicate**(`asset`, `checksum`): `Promise`\<`string` \| `null`\>
 
-Defined in: [packages/core/src/types.ts:132](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L132)
+Defined in: [packages/core/src/types.ts:132](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L132)
 
 Omit to disable source-checksum deduplication.
 
@@ -40,7 +40,7 @@ Omit to disable source-checksum deduplication.
 
 > **get**(`assetId`): `Promise`\<[`MediaAsset`](MediaAsset.md) \| `null`\>
 
-Defined in: [packages/core/src/types.ts:113](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L113)
+Defined in: [packages/core/src/types.ts:113](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L113)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [packages/core/src/types.ts:113](https://github.com/NanaAb-116/rendi
 
 > **markFailed**(`assetId`, `failure`): `Promise`\<`void`\>
 
-Defined in: [packages/core/src/types.ts:130](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L130)
+Defined in: [packages/core/src/types.ts:130](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L130)
 
 Must not overwrite a row that has already reached its successful terminal state.
 
@@ -82,7 +82,7 @@ Must not overwrite a row that has already reached its successful terminal state.
 
 > **markProcessing**(`asset`, `context`): `Promise`\<`boolean` \| `void`\>
 
-Defined in: [packages/core/src/types.ts:115](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L115)
+Defined in: [packages/core/src/types.ts:115](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L115)
 
 Return false when another attempt or a terminal state owns the asset.
 
@@ -106,7 +106,7 @@ Return false when another attempt or a terminal state owns the asset.
 
 > **markReady**(`asset`, `ready`, `context`): `Promise`\<`void`\>
 
-Defined in: [packages/core/src/types.ts:119](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L119)
+Defined in: [packages/core/src/types.ts:119](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L119)
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: [packages/core/src/types.ts:119](https://github.com/NanaAb-116/rendi
 
 > **markRejected**(`asset`, `rejection`, `context`): `Promise`\<`void`\>
 
-Defined in: [packages/core/src/types.ts:124](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L124)
+Defined in: [packages/core/src/types.ts:124](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L124)
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: [packages/core/src/types.ts:124](https://github.com/NanaAb-116/rendi
 
 > `optional` **reapStalled**(`before`): `Promise`\<`number`\>
 
-Defined in: [packages/core/src/types.ts:137](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L137)
+Defined in: [packages/core/src/types.ts:137](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L137)
 
 Optional hard-kill recovery hook. Mark attempts started before `before` as
 failed, without overwriting assets that have since become ready.

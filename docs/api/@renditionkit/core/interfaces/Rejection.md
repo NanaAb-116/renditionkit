@@ -6,7 +6,7 @@
 
 # Interface: Rejection
 
-Defined in: [packages/core/src/types.ts:99](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L99)
+Defined in: [packages/core/src/types.ts:99](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L99)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:99](https://github.com/NanaAb-116/rendit
 
 > **code**: `string`
 
-Defined in: [packages/core/src/types.ts:100](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L100)
+Defined in: [packages/core/src/types.ts:100](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L100)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/types.ts:100](https://github.com/NanaAb-116/rendi
 
 > `optional` **details?**: `Readonly`\<`Record`\<`string`, `unknown`\>\>
 
-Defined in: [packages/core/src/types.ts:102](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L102)
+Defined in: [packages/core/src/types.ts:102](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L102)
 
 ---
 
@@ -30,4 +30,4 @@ Defined in: [packages/core/src/types.ts:102](https://github.com/NanaAb-116/rendi
 
 > **message**: `string`
 
-Defined in: [packages/core/src/types.ts:101](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L101)
+Defined in: [packages/core/src/types.ts:101](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L101)

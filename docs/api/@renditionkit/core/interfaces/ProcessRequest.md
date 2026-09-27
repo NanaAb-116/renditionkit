@@ -6,7 +6,7 @@
 
 # Interface: ProcessRequest
 
-Defined in: [packages/core/src/types.ts:191](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L191)
+Defined in: [packages/core/src/types.ts:191](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L191)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:191](https://github.com/NanaAb-116/rendi
 
 > **assetId**: `string`
 
-Defined in: [packages/core/src/types.ts:192](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L192)
+Defined in: [packages/core/src/types.ts:192](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L192)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/types.ts:192](https://github.com/NanaAb-116/rendi
 
 > `optional` **attempt?**: `number`
 
-Defined in: [packages/core/src/types.ts:195](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L195)
+Defined in: [packages/core/src/types.ts:195](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L195)
 
 One-based attempt number.
 
@@ -32,4 +32,4 @@ One-based attempt number.
 
 > `optional` **jobId?**: `string`
 
-Defined in: [packages/core/src/types.ts:193](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L193)
+Defined in: [packages/core/src/types.ts:193](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L193)

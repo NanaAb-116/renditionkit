@@ -6,7 +6,7 @@
 
 # Interface: S3StorageOptions
 
-Defined in: [index.ts:9](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/storage-s3/src/index.ts#L9)
+Defined in: [index.ts:9](https://github.com/NanaAb-116/renditionkit/blob/main/packages/storage-s3/src/index.ts#L9)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [index.ts:9](https://github.com/NanaAb-116/renditionkit/blob/7d57dad
 
 > **bucket**: `string`
 
-Defined in: [index.ts:11](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/storage-s3/src/index.ts#L11)
+Defined in: [index.ts:11](https://github.com/NanaAb-116/renditionkit/blob/main/packages/storage-s3/src/index.ts#L11)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [index.ts:11](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > **client**: `S3Client`
 
-Defined in: [index.ts:10](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/storage-s3/src/index.ts#L10)
+Defined in: [index.ts:10](https://github.com/NanaAb-116/renditionkit/blob/main/packages/storage-s3/src/index.ts#L10)
 
 ---
 
@@ -30,6 +30,6 @@ Defined in: [index.ts:10](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > `optional` **keyPrefix?**: `string`
 
-Defined in: [index.ts:13](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/storage-s3/src/index.ts#L13)
+Defined in: [index.ts:13](https://github.com/NanaAb-116/renditionkit/blob/main/packages/storage-s3/src/index.ts#L13)
 
 Optional folder shared by every original and rendition key.

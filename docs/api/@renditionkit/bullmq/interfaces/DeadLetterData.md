@@ -6,7 +6,7 @@
 
 # Interface: DeadLetterData
 
-Defined in: [worker.ts:6](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/worker.ts#L6)
+Defined in: [worker.ts:6](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/worker.ts#L6)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [worker.ts:6](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > **assetId**: `string`
 
-Defined in: [types.ts:5](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/types.ts#L5)
+Defined in: [types.ts:5](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/types.ts#L5)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:5](https://github.com/NanaAb-116/renditionkit/blob/7d57dad
 
 > **attempts**: `number`
 
-Defined in: [worker.ts:10](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/worker.ts#L10)
+Defined in: [worker.ts:10](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/worker.ts#L10)
 
 ---
 
@@ -38,7 +38,7 @@ Defined in: [worker.ts:10](https://github.com/NanaAb-116/renditionkit/blob/7d57d
 
 > `optional` **enqueueToken?**: `string`
 
-Defined in: [types.ts:7](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/types.ts#L7)
+Defined in: [types.ts:7](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/types.ts#L7)
 
 Internal token used to identify the winner of concurrent enqueue calls.
 
@@ -52,7 +52,7 @@ Internal token used to identify the winner of concurrent enqueue calls.
 
 > **error**: `string`
 
-Defined in: [worker.ts:9](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/worker.ts#L9)
+Defined in: [worker.ts:9](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/worker.ts#L9)
 
 ---
 
@@ -60,7 +60,7 @@ Defined in: [worker.ts:9](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > **failedAt**: `string`
 
-Defined in: [worker.ts:8](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/worker.ts#L8)
+Defined in: [worker.ts:8](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/worker.ts#L8)
 
 ---
 
@@ -68,4 +68,4 @@ Defined in: [worker.ts:8](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > **jobId**: `string` \| `null`
 
-Defined in: [worker.ts:7](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/worker.ts#L7)
+Defined in: [worker.ts:7](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/worker.ts#L7)

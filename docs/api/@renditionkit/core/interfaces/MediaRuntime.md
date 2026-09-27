@@ -6,7 +6,7 @@
 
 # Interface: MediaRuntime
 
-Defined in: [packages/core/src/types.ts:180](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L180)
+Defined in: [packages/core/src/types.ts:180](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L180)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:180](https://github.com/NanaAb-116/rendi
 
 > **engines**: readonly [`MediaEngine`](MediaEngine.md)[]
 
-Defined in: [packages/core/src/types.ts:183](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L183)
+Defined in: [packages/core/src/types.ts:183](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L183)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/types.ts:183](https://github.com/NanaAb-116/rendi
 
 > `optional` **hooks?**: [`ProcessingHooks`](ProcessingHooks.md)
 
-Defined in: [packages/core/src/types.ts:185](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L185)
+Defined in: [packages/core/src/types.ts:185](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L185)
 
 ---
 
@@ -30,7 +30,7 @@ Defined in: [packages/core/src/types.ts:185](https://github.com/NanaAb-116/rendi
 
 > `optional` **keyBuilder?**: [`RenditionKeyBuilder`](../type-aliases/RenditionKeyBuilder.md)
 
-Defined in: [packages/core/src/types.ts:184](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L184)
+Defined in: [packages/core/src/types.ts:184](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L184)
 
 ---
 
@@ -38,7 +38,7 @@ Defined in: [packages/core/src/types.ts:184](https://github.com/NanaAb-116/rendi
 
 > `optional` **logger?**: [`Logger`](Logger.md)
 
-Defined in: [packages/core/src/types.ts:186](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L186)
+Defined in: [packages/core/src/types.ts:186](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L186)
 
 ---
 
@@ -46,7 +46,7 @@ Defined in: [packages/core/src/types.ts:186](https://github.com/NanaAb-116/rendi
 
 > `optional` **renditionCacheControl?**: `string`
 
-Defined in: [packages/core/src/types.ts:188](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L188)
+Defined in: [packages/core/src/types.ts:188](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L188)
 
 Cache policy for immutable, versioned renditions.
 
@@ -56,7 +56,7 @@ Cache policy for immutable, versioned renditions.
 
 > **repository**: [`AssetRepository`](AssetRepository.md)
 
-Defined in: [packages/core/src/types.ts:181](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L181)
+Defined in: [packages/core/src/types.ts:181](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L181)
 
 ---
 
@@ -64,4 +64,4 @@ Defined in: [packages/core/src/types.ts:181](https://github.com/NanaAb-116/rendi
 
 > **storage**: [`ObjectStorage`](ObjectStorage.md)
 
-Defined in: [packages/core/src/types.ts:182](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L182)
+Defined in: [packages/core/src/types.ts:182](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L182)

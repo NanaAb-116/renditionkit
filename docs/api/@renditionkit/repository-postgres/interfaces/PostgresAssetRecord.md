@@ -6,7 +6,7 @@
 
 # Interface: PostgresAssetRecord
 
-Defined in: repository-postgres/src/index.ts:24
+Defined in: [repository-postgres/src/index.ts:24](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L24)
 
 A durable application-owned record that points at one original media object.
 
@@ -20,7 +20,7 @@ A durable application-owned record that points at one original media object.
 
 > **attempt**: `number`
 
-Defined in: repository-postgres/src/index.ts:36
+Defined in: [repository-postgres/src/index.ts:36](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L36)
 
 ---
 
@@ -28,7 +28,7 @@ Defined in: repository-postgres/src/index.ts:36
 
 > **attributes**: `Readonly`\<`Record`\<`string`, `unknown`\>\>
 
-Defined in: repository-postgres/src/index.ts:26
+Defined in: [repository-postgres/src/index.ts:26](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L26)
 
 Opaque application data passed back to repository methods and hooks.
 
@@ -42,7 +42,7 @@ Opaque application data passed back to repository methods and hooks.
 
 > **checksum**: `string` \| `null`
 
-Defined in: repository-postgres/src/index.ts:28
+Defined in: [repository-postgres/src/index.ts:28](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L28)
 
 ---
 
@@ -50,7 +50,7 @@ Defined in: repository-postgres/src/index.ts:28
 
 > **createdAt**: `Date`
 
-Defined in: repository-postgres/src/index.ts:39
+Defined in: [repository-postgres/src/index.ts:39](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L39)
 
 ---
 
@@ -58,7 +58,7 @@ Defined in: repository-postgres/src/index.ts:39
 
 > **error**: [`Rejection`](../../core/interfaces/Rejection.md) \| \{ `code`: `"processing_failed"`; `message`: `string`; \} \| `null`
 
-Defined in: repository-postgres/src/index.ts:38
+Defined in: [repository-postgres/src/index.ts:38](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L38)
 
 ---
 
@@ -78,7 +78,7 @@ Defined in: core/dist/types.d.ts:4
 
 > **inspection**: [`MediaInspection`](../../core/interfaces/MediaInspection.md) \| `null`
 
-Defined in: repository-postgres/src/index.ts:31
+Defined in: [repository-postgres/src/index.ts:31](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L31)
 
 ---
 
@@ -86,7 +86,7 @@ Defined in: repository-postgres/src/index.ts:31
 
 > **jobId**: `string` \| `null`
 
-Defined in: repository-postgres/src/index.ts:37
+Defined in: [repository-postgres/src/index.ts:37](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L37)
 
 ---
 
@@ -108,7 +108,7 @@ Engine discriminator such as `image` today or `video` in the future.
 
 > **namespace**: `string`
 
-Defined in: repository-postgres/src/index.ts:25
+Defined in: [repository-postgres/src/index.ts:25](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L25)
 
 Isolates keys and deduplication domains in multi-tenant applications.
 
@@ -122,7 +122,7 @@ Isolates keys and deduplication domains in multi-tenant applications.
 
 > **processingStartedAt**: `Date` \| `null`
 
-Defined in: repository-postgres/src/index.ts:35
+Defined in: [repository-postgres/src/index.ts:35](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L35)
 
 ---
 
@@ -130,7 +130,7 @@ Defined in: repository-postgres/src/index.ts:35
 
 > **renditions**: readonly [`StoredRendition`](../../core/interfaces/StoredRendition.md)[] \| `null`
 
-Defined in: repository-postgres/src/index.ts:32
+Defined in: [repository-postgres/src/index.ts:32](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L32)
 
 ---
 
@@ -138,7 +138,7 @@ Defined in: repository-postgres/src/index.ts:32
 
 > **renditionVersion**: `number`
 
-Defined in: repository-postgres/src/index.ts:34
+Defined in: [repository-postgres/src/index.ts:34](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L34)
 
 ---
 
@@ -146,7 +146,7 @@ Defined in: repository-postgres/src/index.ts:34
 
 > **sourceBytes**: `number` \| `null`
 
-Defined in: repository-postgres/src/index.ts:29
+Defined in: [repository-postgres/src/index.ts:29](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L29)
 
 ---
 
@@ -154,7 +154,7 @@ Defined in: repository-postgres/src/index.ts:29
 
 > **sourceContentType**: `string` \| `null`
 
-Defined in: repository-postgres/src/index.ts:30
+Defined in: [repository-postgres/src/index.ts:30](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L30)
 
 ---
 
@@ -176,7 +176,7 @@ Object key understood by the configured storage adapter.
 
 > **status**: [`AssetStatus`](../type-aliases/AssetStatus.md)
 
-Defined in: repository-postgres/src/index.ts:27
+Defined in: [repository-postgres/src/index.ts:27](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L27)
 
 ---
 
@@ -184,7 +184,7 @@ Defined in: repository-postgres/src/index.ts:27
 
 > **transformMetadata**: `Readonly`\<`Record`\<`string`, `unknown`\>\> \| `null`
 
-Defined in: repository-postgres/src/index.ts:33
+Defined in: [repository-postgres/src/index.ts:33](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L33)
 
 ---
 
@@ -192,4 +192,4 @@ Defined in: repository-postgres/src/index.ts:33
 
 > **updatedAt**: `Date`
 
-Defined in: repository-postgres/src/index.ts:40
+Defined in: [repository-postgres/src/index.ts:40](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L40)

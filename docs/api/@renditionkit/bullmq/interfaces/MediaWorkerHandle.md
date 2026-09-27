@@ -6,7 +6,7 @@
 
 # Interface: MediaWorkerHandle
 
-Defined in: [worker.ts:13](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/worker.ts#L13)
+Defined in: [worker.ts:13](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/worker.ts#L13)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [worker.ts:13](https://github.com/NanaAb-116/renditionkit/blob/7d57d
 
 > `readonly` **deadLetterQueue**: `Queue`\<[`DeadLetterData`](DeadLetterData.md)\>
 
-Defined in: [worker.ts:15](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/worker.ts#L15)
+Defined in: [worker.ts:15](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/worker.ts#L15)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [worker.ts:15](https://github.com/NanaAb-116/renditionkit/blob/7d57d
 
 > `readonly` **worker**: `Worker`\<[`MediaJobData`](MediaJobData.md)\>
 
-Defined in: [worker.ts:14](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/worker.ts#L14)
+Defined in: [worker.ts:14](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/worker.ts#L14)
 
 ## Methods
 
@@ -30,7 +30,7 @@ Defined in: [worker.ts:14](https://github.com/NanaAb-116/renditionkit/blob/7d57d
 
 > **close**(): `Promise`\<`void`\>
 
-Defined in: [worker.ts:16](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/worker.ts#L16)
+Defined in: [worker.ts:16](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/worker.ts#L16)
 
 #### Returns
 

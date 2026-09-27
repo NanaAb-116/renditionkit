@@ -6,7 +6,7 @@
 
 # Interface: ProcessingFailure
 
-Defined in: [packages/core/src/types.ts:105](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L105)
+Defined in: [packages/core/src/types.ts:105](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L105)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:105](https://github.com/NanaAb-116/rendi
 
 > **attempts**: `number`
 
-Defined in: [packages/core/src/types.ts:108](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L108)
+Defined in: [packages/core/src/types.ts:108](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L108)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/types.ts:108](https://github.com/NanaAb-116/rendi
 
 > **failedAt**: `Date`
 
-Defined in: [packages/core/src/types.ts:107](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L107)
+Defined in: [packages/core/src/types.ts:107](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L107)
 
 ---
 
@@ -30,4 +30,4 @@ Defined in: [packages/core/src/types.ts:107](https://github.com/NanaAb-116/rendi
 
 > **message**: `string`
 
-Defined in: [packages/core/src/types.ts:106](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L106)
+Defined in: [packages/core/src/types.ts:106](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L106)

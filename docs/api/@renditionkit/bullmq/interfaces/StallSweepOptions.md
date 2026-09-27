@@ -6,7 +6,7 @@
 
 # Interface: StallSweepOptions
 
-Defined in: [types.ts:21](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/types.ts#L21)
+Defined in: [types.ts:21](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/types.ts#L21)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:21](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > `optional` **intervalMs?**: `number`
 
-Defined in: [types.ts:22](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/types.ts#L22)
+Defined in: [types.ts:22](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/types.ts#L22)
 
 ---
 
@@ -22,4 +22,4 @@ Defined in: [types.ts:22](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > `optional` **staleAfterMs?**: `number`
 
-Defined in: [types.ts:23](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/types.ts#L23)
+Defined in: [types.ts:23](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/types.ts#L23)

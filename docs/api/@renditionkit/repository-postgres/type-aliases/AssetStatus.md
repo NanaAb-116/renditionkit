@@ -8,4 +8,4 @@
 
 > **AssetStatus** = `"pending"` \| `"processing"` \| `"ready"` \| `"rejected"` \| `"failed"`
 
-Defined in: repository-postgres/src/index.ts:21
+Defined in: [repository-postgres/src/index.ts:21](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L21)

@@ -6,7 +6,7 @@
 
 # Interface: PostgresRepositoryOptions
 
-Defined in: repository-postgres/src/index.ts:51
+Defined in: [repository-postgres/src/index.ts:51](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L51)
 
 ## Properties
 
@@ -14,6 +14,6 @@ Defined in: repository-postgres/src/index.ts:51
 
 > `optional` **deduplicate?**: `boolean`
 
-Defined in: repository-postgres/src/index.ts:53
+Defined in: [repository-postgres/src/index.ts:53](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L53)
 
 Defaults to true and deduplicates ready assets within one namespace.

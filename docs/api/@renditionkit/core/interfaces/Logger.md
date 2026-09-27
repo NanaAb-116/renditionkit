@@ -6,7 +6,7 @@
 
 # Interface: Logger
 
-Defined in: [packages/core/src/types.ts:162](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L162)
+Defined in: [packages/core/src/types.ts:162](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L162)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:162](https://github.com/NanaAb-116/rendi
 
 > `optional` **debug**(`message`, `fields?`): `void`
 
-Defined in: [packages/core/src/types.ts:163](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L163)
+Defined in: [packages/core/src/types.ts:163](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L163)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [packages/core/src/types.ts:163](https://github.com/NanaAb-116/rendi
 
 > `optional` **error**(`message`, `fields?`): `void`
 
-Defined in: [packages/core/src/types.ts:166](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L166)
+Defined in: [packages/core/src/types.ts:166](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L166)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [packages/core/src/types.ts:166](https://github.com/NanaAb-116/rendi
 
 > `optional` **info**(`message`, `fields?`): `void`
 
-Defined in: [packages/core/src/types.ts:164](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L164)
+Defined in: [packages/core/src/types.ts:164](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L164)
 
 #### Parameters
 
@@ -80,7 +80,7 @@ Defined in: [packages/core/src/types.ts:164](https://github.com/NanaAb-116/rendi
 
 > `optional` **warn**(`message`, `fields?`): `void`
 
-Defined in: [packages/core/src/types.ts:165](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L165)
+Defined in: [packages/core/src/types.ts:165](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L165)
 
 #### Parameters
 

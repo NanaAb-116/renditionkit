@@ -50,7 +50,7 @@ jobs:
           docker run --detach --name renditionkit-minio --publish 9000:9000
           --env MINIO_ROOT_USER=renditionkit
           --env MINIO_ROOT_PASSWORD=renditionkit-dev-secret
-          quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z server /data
+          bitnamilegacy/minio:2025.7.23@sha256:8935e75fa5d11295c17171e4aa49efe390a1193cd7f12e4d21b92af9ffef09d7
       - name: Wait for MinIO
         run: |
           for attempt in $(seq 1 30); do

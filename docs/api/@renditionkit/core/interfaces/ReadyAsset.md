@@ -6,7 +6,7 @@
 
 # Interface: ReadyAsset
 
-Defined in: [packages/core/src/types.ts:89](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L89)
+Defined in: [packages/core/src/types.ts:89](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L89)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:89](https://github.com/NanaAb-116/rendit
 
 > **checksum**: `string`
 
-Defined in: [packages/core/src/types.ts:90](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L90)
+Defined in: [packages/core/src/types.ts:90](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L90)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/types.ts:90](https://github.com/NanaAb-116/rendit
 
 > **inspection**: [`MediaInspection`](MediaInspection.md)
 
-Defined in: [packages/core/src/types.ts:93](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L93)
+Defined in: [packages/core/src/types.ts:93](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L93)
 
 ---
 
@@ -30,7 +30,7 @@ Defined in: [packages/core/src/types.ts:93](https://github.com/NanaAb-116/rendit
 
 > **renditions**: readonly [`StoredRendition`](StoredRendition.md)[]
 
-Defined in: [packages/core/src/types.ts:94](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L94)
+Defined in: [packages/core/src/types.ts:94](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L94)
 
 ---
 
@@ -38,7 +38,7 @@ Defined in: [packages/core/src/types.ts:94](https://github.com/NanaAb-116/rendit
 
 > **renditionVersion**: `number`
 
-Defined in: [packages/core/src/types.ts:96](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L96)
+Defined in: [packages/core/src/types.ts:96](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L96)
 
 ---
 
@@ -46,7 +46,7 @@ Defined in: [packages/core/src/types.ts:96](https://github.com/NanaAb-116/rendit
 
 > **sourceBytes**: `number`
 
-Defined in: [packages/core/src/types.ts:91](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L91)
+Defined in: [packages/core/src/types.ts:91](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L91)
 
 ---
 
@@ -54,7 +54,7 @@ Defined in: [packages/core/src/types.ts:91](https://github.com/NanaAb-116/rendit
 
 > **sourceContentType**: `string`
 
-Defined in: [packages/core/src/types.ts:92](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L92)
+Defined in: [packages/core/src/types.ts:92](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L92)
 
 ---
 
@@ -62,4 +62,4 @@ Defined in: [packages/core/src/types.ts:92](https://github.com/NanaAb-116/rendit
 
 > `optional` **transformMetadata?**: `Readonly`\<`Record`\<`string`, `unknown`\>\>
 
-Defined in: [packages/core/src/types.ts:95](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L95)
+Defined in: [packages/core/src/types.ts:95](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L95)

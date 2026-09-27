@@ -6,7 +6,7 @@
 
 # Interface: Queryable
 
-Defined in: repository-postgres/src/index.ts:14
+Defined in: [repository-postgres/src/index.ts:14](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L14)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: repository-postgres/src/index.ts:14
 
 > **query**\<`R`\>(`text`, `values?`): `Promise`\<`QueryResult`\<`R`\>\>
 
-Defined in: repository-postgres/src/index.ts:15
+Defined in: [repository-postgres/src/index.ts:15](https://github.com/NanaAb-116/renditionkit/blob/main/packages/repository-postgres/src/index.ts#L15)
 
 #### Type Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: MediaAsset
 
-Defined in: [packages/core/src/types.ts:4](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L4)
+Defined in: [packages/core/src/types.ts:4](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L4)
 
 A durable application-owned record that points at one original media object.
 
@@ -20,7 +20,7 @@ A durable application-owned record that points at one original media object.
 
 > `optional` **attributes?**: `Readonly`\<`Record`\<`string`, `unknown`\>\>
 
-Defined in: [packages/core/src/types.ts:13](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L13)
+Defined in: [packages/core/src/types.ts:13](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L13)
 
 Opaque application data passed back to repository methods and hooks.
 
@@ -30,7 +30,7 @@ Opaque application data passed back to repository methods and hooks.
 
 > **id**: `string`
 
-Defined in: [packages/core/src/types.ts:5](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L5)
+Defined in: [packages/core/src/types.ts:5](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L5)
 
 ---
 
@@ -38,7 +38,7 @@ Defined in: [packages/core/src/types.ts:5](https://github.com/NanaAb-116/renditi
 
 > **mediaType**: `string`
 
-Defined in: [packages/core/src/types.ts:7](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L7)
+Defined in: [packages/core/src/types.ts:7](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L7)
 
 Engine discriminator such as `image` today or `video` in the future.
 
@@ -48,7 +48,7 @@ Engine discriminator such as `image` today or `video` in the future.
 
 > `optional` **namespace?**: `string`
 
-Defined in: [packages/core/src/types.ts:11](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L11)
+Defined in: [packages/core/src/types.ts:11](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L11)
 
 Isolates keys and deduplication domains in multi-tenant applications.
 
@@ -58,6 +58,6 @@ Isolates keys and deduplication domains in multi-tenant applications.
 
 > **sourceKey**: `string`
 
-Defined in: [packages/core/src/types.ts:9](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L9)
+Defined in: [packages/core/src/types.ts:9](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L9)
 
 Object key understood by the configured storage adapter.

@@ -6,7 +6,7 @@
 
 # Interface: ImageTransformMetadata
 
-Defined in: [engine.ts:38](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/image/src/engine.ts#L38)
+Defined in: [engine.ts:38](https://github.com/NanaAb-116/renditionkit/blob/main/packages/image/src/engine.ts#L38)
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: [engine.ts:38](https://github.com/NanaAb-116/renditionkit/blob/7d57d
 
 > `optional` **thumbhash?**: `string`
 
-Defined in: [engine.ts:39](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/image/src/engine.ts#L39)
+Defined in: [engine.ts:39](https://github.com/NanaAb-116/renditionkit/blob/main/packages/image/src/engine.ts#L39)
 
 ---
 
@@ -30,4 +30,4 @@ Defined in: [engine.ts:39](https://github.com/NanaAb-116/renditionkit/blob/7d57d
 
 > **variants**: `Partial`\<`Record`\<[`ImageRenditionFormat`](../type-aliases/ImageRenditionFormat.md), `number`[]\>\>
 
-Defined in: [engine.ts:40](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/image/src/engine.ts#L40)
+Defined in: [engine.ts:40](https://github.com/NanaAb-116/renditionkit/blob/main/packages/image/src/engine.ts#L40)

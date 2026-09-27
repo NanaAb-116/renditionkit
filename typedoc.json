@@ -8,6 +8,9 @@
     "packages/repository-postgres"
   ],
   "entryPointStrategy": "packages",
+  "packageOptions": {
+    "gitRevision": "main"
+  },
   "out": "docs/api",
   "plugin": ["typedoc-plugin-markdown"],
   "readme": "none",

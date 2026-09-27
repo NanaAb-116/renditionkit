@@ -6,7 +6,7 @@
 
 # Interface: MediaInspection
 
-Defined in: [packages/core/src/types.ts:22](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L22)
+Defined in: [packages/core/src/types.ts:22](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L22)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:22](https://github.com/NanaAb-116/rendit
 
 > **contentType**: `string`
 
-Defined in: [packages/core/src/types.ts:23](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L23)
+Defined in: [packages/core/src/types.ts:23](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L23)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/types.ts:23](https://github.com/NanaAb-116/rendit
 
 > `optional` **durationMs?**: `number`
 
-Defined in: [packages/core/src/types.ts:26](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L26)
+Defined in: [packages/core/src/types.ts:26](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L26)
 
 ---
 
@@ -30,7 +30,7 @@ Defined in: [packages/core/src/types.ts:26](https://github.com/NanaAb-116/rendit
 
 > `optional` **height?**: `number`
 
-Defined in: [packages/core/src/types.ts:25](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L25)
+Defined in: [packages/core/src/types.ts:25](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L25)
 
 ---
 
@@ -38,7 +38,7 @@ Defined in: [packages/core/src/types.ts:25](https://github.com/NanaAb-116/rendit
 
 > `optional` **metadata?**: `Readonly`\<`Record`\<`string`, `unknown`\>\>
 
-Defined in: [packages/core/src/types.ts:27](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L27)
+Defined in: [packages/core/src/types.ts:27](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L27)
 
 ---
 
@@ -46,4 +46,4 @@ Defined in: [packages/core/src/types.ts:27](https://github.com/NanaAb-116/rendit
 
 > `optional` **width?**: `number`
 
-Defined in: [packages/core/src/types.ts:24](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L24)
+Defined in: [packages/core/src/types.ts:24](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L24)

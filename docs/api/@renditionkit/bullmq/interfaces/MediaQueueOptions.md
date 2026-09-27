@@ -6,7 +6,7 @@
 
 # Interface: MediaQueueOptions
 
-Defined in: [types.ts:10](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/types.ts#L10)
+Defined in: [types.ts:10](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/types.ts#L10)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:10](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > **connection**: `ConnectionOptions`
 
-Defined in: [types.ts:11](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/types.ts#L11)
+Defined in: [types.ts:11](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/types.ts#L11)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:11](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > `optional` **defaultJobOptions?**: `JobsOptions`
 
-Defined in: [types.ts:13](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/types.ts#L13)
+Defined in: [types.ts:13](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/types.ts#L13)
 
 ---
 
@@ -30,4 +30,4 @@ Defined in: [types.ts:13](https://github.com/NanaAb-116/renditionkit/blob/7d57da
 
 > `optional` **queueName?**: `string`
 
-Defined in: [types.ts:12](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/bullmq/src/types.ts#L12)
+Defined in: [types.ts:12](https://github.com/NanaAb-116/renditionkit/blob/main/packages/bullmq/src/types.ts#L12)

@@ -33,8 +33,7 @@ services:
       retries: 20
 
   minio:
-    image: quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z
-    command: server /data --console-address :9001
+    image: bitnamilegacy/minio:2025.7.23@sha256:8935e75fa5d11295c17171e4aa49efe390a1193cd7f12e4d21b92af9ffef09d7
     environment:
       MINIO_ROOT_USER: renditionkit
       MINIO_ROOT_PASSWORD: renditionkit-dev-secret
@@ -46,7 +45,7 @@ services:
       timeout: 3s
       retries: 20
     volumes:
-      - minio-data:/data
+      - minio-data:/bitnami/minio/data
 
   api:
     build:

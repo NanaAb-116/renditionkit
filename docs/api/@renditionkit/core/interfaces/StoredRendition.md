@@ -6,7 +6,7 @@
 
 # Interface: StoredRendition
 
-Defined in: [packages/core/src/types.ts:42](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L42)
+Defined in: [packages/core/src/types.ts:42](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L42)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [packages/core/src/types.ts:42](https://github.com/NanaAb-116/rendit
 
 > **bytes**: `number`
 
-Defined in: [packages/core/src/types.ts:44](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L44)
+Defined in: [packages/core/src/types.ts:44](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L44)
 
 ---
 
@@ -26,7 +26,7 @@ Defined in: [packages/core/src/types.ts:44](https://github.com/NanaAb-116/rendit
 
 > **contentType**: `string`
 
-Defined in: [packages/core/src/types.ts:34](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L34)
+Defined in: [packages/core/src/types.ts:34](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L34)
 
 #### Inherited from
 
@@ -38,7 +38,7 @@ Defined in: [packages/core/src/types.ts:34](https://github.com/NanaAb-116/rendit
 
 > `optional` **durationMs?**: `number`
 
-Defined in: [packages/core/src/types.ts:38](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L38)
+Defined in: [packages/core/src/types.ts:38](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L38)
 
 #### Inherited from
 
@@ -50,7 +50,7 @@ Defined in: [packages/core/src/types.ts:38](https://github.com/NanaAb-116/rendit
 
 > **extension**: `string`
 
-Defined in: [packages/core/src/types.ts:33](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L33)
+Defined in: [packages/core/src/types.ts:33](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L33)
 
 #### Inherited from
 
@@ -62,7 +62,7 @@ Defined in: [packages/core/src/types.ts:33](https://github.com/NanaAb-116/rendit
 
 > `optional` **height?**: `number`
 
-Defined in: [packages/core/src/types.ts:37](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L37)
+Defined in: [packages/core/src/types.ts:37](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L37)
 
 #### Inherited from
 
@@ -74,7 +74,7 @@ Defined in: [packages/core/src/types.ts:37](https://github.com/NanaAb-116/rendit
 
 > **key**: `string`
 
-Defined in: [packages/core/src/types.ts:43](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L43)
+Defined in: [packages/core/src/types.ts:43](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L43)
 
 ---
 
@@ -82,7 +82,7 @@ Defined in: [packages/core/src/types.ts:43](https://github.com/NanaAb-116/rendit
 
 > `optional` **metadata?**: `Readonly`\<`Record`\<`string`, `unknown`\>\>
 
-Defined in: [packages/core/src/types.ts:39](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L39)
+Defined in: [packages/core/src/types.ts:39](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L39)
 
 #### Inherited from
 
@@ -94,7 +94,7 @@ Defined in: [packages/core/src/types.ts:39](https://github.com/NanaAb-116/rendit
 
 > **name**: `string`
 
-Defined in: [packages/core/src/types.ts:32](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L32)
+Defined in: [packages/core/src/types.ts:32](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L32)
 
 Stable logical name within an asset version, for example `w800`.
 
@@ -108,7 +108,7 @@ Stable logical name within an asset version, for example `w800`.
 
 > `optional` **width?**: `number`
 
-Defined in: [packages/core/src/types.ts:36](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L36)
+Defined in: [packages/core/src/types.ts:36](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L36)
 
 #### Inherited from
 

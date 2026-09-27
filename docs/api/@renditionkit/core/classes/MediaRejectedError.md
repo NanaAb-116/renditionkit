@@ -6,7 +6,7 @@
 
 # Class: MediaRejectedError
 
-Defined in: [packages/core/src/errors.ts:4](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/errors.ts#L4)
+Defined in: [packages/core/src/errors.ts:4](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/errors.ts#L4)
 
 A permanent input problem. Throwing this completes the queue job without retrying it.
 
@@ -20,7 +20,7 @@ A permanent input problem. Throwing this completes the queue job without retryin
 
 > **new MediaRejectedError**(`code`, `message`, `details?`): `MediaRejectedError`
 
-Defined in: [packages/core/src/errors.ts:7](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/errors.ts#L7)
+Defined in: [packages/core/src/errors.ts:7](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/errors.ts#L7)
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: node\_modules/.pnpm/typescript@5.9.3/node\_modules/typescript/lib/li
 
 > `readonly` **rejection**: [`Rejection`](../interfaces/Rejection.md)
 
-Defined in: [packages/core/src/errors.ts:5](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/errors.ts#L5)
+Defined in: [packages/core/src/errors.ts:5](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/errors.ts#L5)
 
 ---
 

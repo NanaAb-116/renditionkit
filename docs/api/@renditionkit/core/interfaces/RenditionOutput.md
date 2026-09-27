@@ -6,7 +6,7 @@
 
 # Interface: RenditionOutput
 
-Defined in: [packages/core/src/types.ts:30](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L30)
+Defined in: [packages/core/src/types.ts:30](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L30)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/types.ts:30](https://github.com/NanaAb-116/rendit
 
 > **body**: `Uint8Array`
 
-Defined in: [packages/core/src/types.ts:35](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L35)
+Defined in: [packages/core/src/types.ts:35](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L35)
 
 ---
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/types.ts:35](https://github.com/NanaAb-116/rendit
 
 > **contentType**: `string`
 
-Defined in: [packages/core/src/types.ts:34](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L34)
+Defined in: [packages/core/src/types.ts:34](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L34)
 
 ---
 
@@ -30,7 +30,7 @@ Defined in: [packages/core/src/types.ts:34](https://github.com/NanaAb-116/rendit
 
 > `optional` **durationMs?**: `number`
 
-Defined in: [packages/core/src/types.ts:38](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L38)
+Defined in: [packages/core/src/types.ts:38](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L38)
 
 ---
 
@@ -38,7 +38,7 @@ Defined in: [packages/core/src/types.ts:38](https://github.com/NanaAb-116/rendit
 
 > **extension**: `string`
 
-Defined in: [packages/core/src/types.ts:33](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L33)
+Defined in: [packages/core/src/types.ts:33](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L33)
 
 ---
 
@@ -46,7 +46,7 @@ Defined in: [packages/core/src/types.ts:33](https://github.com/NanaAb-116/rendit
 
 > `optional` **height?**: `number`
 
-Defined in: [packages/core/src/types.ts:37](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L37)
+Defined in: [packages/core/src/types.ts:37](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L37)
 
 ---
 
@@ -54,7 +54,7 @@ Defined in: [packages/core/src/types.ts:37](https://github.com/NanaAb-116/rendit
 
 > `optional` **metadata?**: `Readonly`\<`Record`\<`string`, `unknown`\>\>
 
-Defined in: [packages/core/src/types.ts:39](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L39)
+Defined in: [packages/core/src/types.ts:39](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L39)
 
 ---
 
@@ -62,7 +62,7 @@ Defined in: [packages/core/src/types.ts:39](https://github.com/NanaAb-116/rendit
 
 > **name**: `string`
 
-Defined in: [packages/core/src/types.ts:32](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L32)
+Defined in: [packages/core/src/types.ts:32](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L32)
 
 Stable logical name within an asset version, for example `w800`.
 
@@ -72,4 +72,4 @@ Stable logical name within an asset version, for example `w800`.
 
 > `optional` **width?**: `number`
 
-Defined in: [packages/core/src/types.ts:36](https://github.com/NanaAb-116/renditionkit/blob/7d57dadab6320d563c460f656947b5deae76d0ee/packages/core/src/types.ts#L36)
+Defined in: [packages/core/src/types.ts:36](https://github.com/NanaAb-116/renditionkit/blob/main/packages/core/src/types.ts#L36)
