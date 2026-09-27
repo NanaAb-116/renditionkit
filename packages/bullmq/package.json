@@ -1,0 +1,37 @@
+{
+  "name": "@renditionkit/bullmq",
+  "version": "0.1.0",
+  "description": "BullMQ producer, worker, retries, dead letters, and recovery for RenditionKit.",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@renditionkit/core": "workspace:^",
+    "bullmq": "^5.61.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

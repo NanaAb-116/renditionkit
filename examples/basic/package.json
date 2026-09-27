@@ -1,0 +1,14 @@
+{
+  "name": "@renditionkit/basic-example",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@renditionkit/core": "workspace:*",
+    "@renditionkit/image": "workspace:*"
+  }
+}
