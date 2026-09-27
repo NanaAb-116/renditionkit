@@ -11,13 +11,15 @@ changing an application's queue or persistence integration.
 
 ## Packages
 
-| Package                    | Purpose                                                                |
-| -------------------------- | ---------------------------------------------------------------------- |
-| `@renditionkit/core`       | Queue-neutral orchestration and adapter contracts                      |
-| `@renditionkit/image`      | Validated, colour-managed AVIF/WebP/JPEG renditions with Sharp         |
-| `@renditionkit/bullmq`     | Deduplicated jobs, retries, dead letters, and stalled-attempt recovery |
-| `@renditionkit/storage-s3` | AWS S3, Cloudflare R2, and MinIO storage adapter                       |
-| `@renditionkit/cli`        | Configuration-driven worker process                                    |
+| Package                             | Purpose                                                                |
+| ----------------------------------- | ---------------------------------------------------------------------- |
+| `@renditionkit/core`                | Queue-neutral orchestration and adapter contracts                      |
+| `@renditionkit/image`               | Validated, colour-managed AVIF/WebP/JPEG renditions with Sharp         |
+| `@renditionkit/bullmq`              | Deduplicated jobs, retries, dead letters, and stalled-attempt recovery |
+| `@renditionkit/storage-s3`          | AWS S3, Cloudflare R2, and MinIO storage adapter                       |
+| `@renditionkit/repository-postgres` | Ready-to-use durable asset repository for PostgreSQL                   |
+| `@renditionkit/cli`                 | Configuration-driven worker process                                    |
+| `renditionkit`                      | Self-contained package with the same APIs through subpath imports      |
 
 ## How it fits together
 
@@ -77,8 +79,9 @@ const media = createMediaQueue({
 await media.enqueue(assetId);
 ```
 
-See [the architecture](docs/architecture.md), [adapter guide](docs/adapters.md),
-and [operations guide](docs/operations.md) for the contracts behind this example.
+See [the complete Docker reference app](examples/reference/README.md),
+[architecture](docs/architecture.md), [adapter guide](docs/adapters.md),
+[operations guide](docs/operations.md), and [generated API reference](docs/api/README.md).
 
 ## Image behavior
 
@@ -103,6 +106,16 @@ pnpm install
 pnpm check
 pnpm --filter @renditionkit/basic-example start ./photo.jpg ./output
 ```
+
+Generate a large fixture and measure the image pipeline in a separate process:
+
+```sh
+pnpm benchmark:fixture -- ./benchmarks/fixture.jpg 6000 4000
+pnpm benchmark:image -- ./benchmarks/fixture.jpg
+```
+
+See [benchmark methodology](benchmarks/README.md) and the
+[release checklist](docs/releasing.md) before publishing.
 
 ## Future video engine
 

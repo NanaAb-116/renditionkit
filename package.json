@@ -4,6 +4,14 @@
   "private": true,
   "description": "Extensible background processing for image and video renditions.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanaAb-116/renditionkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NanaAb-116/renditionkit/issues"
+  },
+  "homepage": "https://github.com/NanaAb-116/renditionkit#readme",
   "type": "module",
   "packageManager": "pnpm@10.33.2",
   "engines": {
@@ -15,16 +23,23 @@
     "test": "pnpm -r --if-present test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "check": "pnpm format:check && pnpm build && pnpm typecheck && pnpm test",
+    "docs:api": "typedoc && prettier --write docs/api",
+    "benchmark:fixture": "tsx benchmarks/generate-fixture.ts",
+    "benchmark:image": "tsx benchmarks/image-memory.ts",
+    "check": "pnpm format:check && pnpm build && pnpm typecheck && pnpm test && pnpm docs:api",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "pnpm build && changeset publish"
+    "release": "pnpm build && pnpm --filter renditionkit publish --access public --provenance --no-git-checks",
+    "release:all": "pnpm build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.7",
     "@types/node": "^22.18.6",
     "prettier": "^3.6.2",
+    "sharp": "^0.34.5",
     "tsx": "^4.20.6",
+    "typedoc": "^0.28.20",
+    "typedoc-plugin-markdown": "^4.13.1",
     "typescript": "^5.9.2"
   }
 }

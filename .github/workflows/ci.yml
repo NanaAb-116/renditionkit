@@ -21,6 +21,19 @@ jobs:
           --health-interval 5s
           --health-timeout 3s
           --health-retries 10
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: renditionkit
+          POSTGRES_PASSWORD: renditionkit
+          POSTGRES_DB: renditionkit
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U renditionkit"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
     strategy:
       matrix:
         node: [20, 22, 24]
@@ -32,6 +45,27 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - name: Start MinIO
+        run: >-
+          docker run --detach --name renditionkit-minio --publish 9000:9000
+          --env MINIO_ROOT_USER=renditionkit
+          --env MINIO_ROOT_PASSWORD=renditionkit-dev-secret
+          quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z server /data
+      - name: Wait for MinIO
+        run: |
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:9000/minio/health/live >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          docker logs renditionkit-minio
+          exit 1
       - run: pnpm check
         env:
           RENDITIONKIT_REDIS_PORT: 6379
+          RENDITIONKIT_POSTGRES_URL: postgres://renditionkit:renditionkit@127.0.0.1:5432/renditionkit
+          RENDITIONKIT_S3_ENDPOINT: http://127.0.0.1:9000
+          RENDITIONKIT_S3_REGION: us-east-1
+          RENDITIONKIT_S3_ACCESS_KEY_ID: renditionkit
+          RENDITIONKIT_S3_SECRET_ACCESS_KEY: renditionkit-dev-secret

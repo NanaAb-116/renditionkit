@@ -1,5 +1,6 @@
 node_modules/
 dist/
+benchmarks/fixture.*
 coverage/
 .env
 .env.*

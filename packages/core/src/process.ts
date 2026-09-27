@@ -76,7 +76,20 @@ export async function processMediaAsset(
   const uploaded: StoredRendition[] = [];
   let prepared: PreparedMedia | undefined;
 
-  await runtime.repository.markProcessing(asset, context);
+  const claimed = await runtime.repository.markProcessing(asset, context);
+  if (claimed === false) {
+    runtime.logger?.info?.(
+      "Media asset is already owned or terminal; skipping",
+      {
+        assetId: asset.id,
+      },
+    );
+    return {
+      status: "skipped",
+      assetId: asset.id,
+      reason: "repository_declined",
+    };
+  }
 
   try {
     prepared = await engine.prepare(asset, {

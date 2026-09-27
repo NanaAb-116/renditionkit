@@ -1,0 +1,77 @@
+{
+  "name": "renditionkit",
+  "version": "0.1.0",
+  "description": "Extensible background processing for image and video renditions.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanaAb-116/renditionkit.git",
+    "directory": "packages/renditionkit"
+  },
+  "bugs": {
+    "url": "https://github.com/NanaAb-116/renditionkit/issues"
+  },
+  "homepage": "https://github.com/NanaAb-116/renditionkit/tree/main/packages/renditionkit#readme",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./core": {
+      "types": "./dist/core.d.ts",
+      "import": "./dist/core.js"
+    },
+    "./image": {
+      "types": "./dist/image.d.ts",
+      "import": "./dist/image.js"
+    },
+    "./bullmq": {
+      "types": "./dist/bullmq.d.ts",
+      "import": "./dist/bullmq.js"
+    },
+    "./storage-s3": {
+      "types": "./dist/storage-s3.d.ts",
+      "import": "./dist/storage-s3.js"
+    },
+    "./repository-postgres": {
+      "types": "./dist/repository-postgres.d.ts",
+      "import": "./dist/repository-postgres.js"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.896.0",
+    "@types/pg": "^8.15.5",
+    "bullmq": "^5.61.2",
+    "pg": "^8.16.3",
+    "sharp": "^0.34.4",
+    "thumbhash": "^0.1.1"
+  },
+  "devDependencies": {
+    "@renditionkit/bullmq": "workspace:^",
+    "@renditionkit/core": "workspace:^",
+    "@renditionkit/image": "workspace:^",
+    "@renditionkit/repository-postgres": "workspace:^",
+    "@renditionkit/storage-s3": "workspace:^",
+    "tsup": "^8.5.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

@@ -4,6 +4,15 @@
   "description": "Configuration-driven worker command for RenditionKit.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanaAb-116/renditionkit.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/NanaAb-116/renditionkit/issues"
+  },
+  "homepage": "https://github.com/NanaAb-116/renditionkit/tree/main/packages/cli#readme",
   "files": [
     "dist",
     "README.md",

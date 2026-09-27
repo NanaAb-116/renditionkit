@@ -4,6 +4,15 @@
   "description": "Sharp-based image inspection and responsive rendition engine for RenditionKit.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanaAb-116/renditionkit.git",
+    "directory": "packages/image"
+  },
+  "bugs": {
+    "url": "https://github.com/NanaAb-116/renditionkit/issues"
+  },
+  "homepage": "https://github.com/NanaAb-116/renditionkit/tree/main/packages/image#readme",
   "sideEffects": false,
   "files": [
     "dist",

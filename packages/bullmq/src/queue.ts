@@ -1,4 +1,4 @@
-import { createHash } from "node:crypto";
+import { createHash, randomUUID } from "node:crypto";
 import { Queue, type Job } from "bullmq";
 import type {
   EnqueueOptions,
@@ -56,8 +56,18 @@ export function createMediaQueue(options: MediaQueueOptions): MediaQueue {
         }
         await existing.remove().catch(() => undefined);
       }
-      const job = await queue.add(MEDIA_JOB_NAME, { assetId }, { jobId });
-      return { created: true, job };
+      const enqueueToken = randomUUID();
+      const added = await queue.add(
+        MEDIA_JOB_NAME,
+        { assetId, enqueueToken },
+        { jobId },
+      );
+      // Two producers can both observe "no existing job" before either add
+      // reaches Redis. BullMQ stores only one custom job ID; reading it back and
+      // comparing tokens tells each caller which add actually won.
+      const stored = await queue.getJob(jobId);
+      const job = stored ?? added;
+      return { created: job.data.enqueueToken === enqueueToken, job };
     },
 
     async close() {

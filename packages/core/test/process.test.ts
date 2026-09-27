@@ -141,6 +141,21 @@ test("processes and stores a deterministic rendition", async () => {
   assert.equal(f.ready?.checksum.length, 64);
 });
 
+test("skips work when the repository declines the processing claim", async () => {
+  const f = fixture();
+  f.runtime.repository.markProcessing = async () => false;
+
+  const result = await processMediaAsset({ assetId: f.asset.id }, f.runtime);
+
+  assert.deepEqual(result, {
+    status: "skipped",
+    assetId: f.asset.id,
+    reason: "repository_declined",
+  });
+  assert.equal(f.ready, undefined);
+  assert.equal(f.objects.size, 1);
+});
+
 test("turns permanent engine errors into a rejection without throwing", async () => {
   const f = fixture({
     engines: [

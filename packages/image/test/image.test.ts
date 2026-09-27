@@ -91,3 +91,50 @@ test("rejects a file with a JPEG header but truncated body", async () => {
       error.rejection.code === "invalid_image",
   );
 });
+
+test("reports display dimensions after applying EXIF orientation", async () => {
+  const source = await sharp({
+    create: { width: 30, height: 20, channels: 3, background: "#22c55e" },
+  })
+    .jpeg()
+    .withMetadata({ orientation: 6 })
+    .toBuffer();
+  const engine = createImageEngine({ widths: [10], formats: ["webp"] });
+  const prepared = await engine.prepare(
+    { id: "oriented", mediaType: "image", sourceKey: "oriented.jpg" },
+    {
+      key: "oriented.jpg",
+      async read() {
+        return { body: source };
+      },
+    },
+  );
+
+  assert.equal(prepared.inspection.width, 20);
+  assert.equal(prepared.inspection.height, 30);
+  assert.equal(prepared.inspection.metadata?.orientation, 6);
+});
+
+test("rejects inputs exceeding the configured pixel limit", async () => {
+  const source = await sharp({
+    create: { width: 20, height: 20, channels: 3, background: "#ef4444" },
+  })
+    .png()
+    .toBuffer();
+  const engine = createImageEngine({ maxInputPixels: 100 });
+
+  await assert.rejects(
+    engine.prepare(
+      { id: "large", mediaType: "image", sourceKey: "large.png" },
+      {
+        key: "large.png",
+        async read() {
+          return { body: source };
+        },
+      },
+    ),
+    (error: unknown) =>
+      error instanceof MediaRejectedError &&
+      error.rejection.code === "invalid_image",
+  );
+});

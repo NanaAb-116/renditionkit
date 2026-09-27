@@ -4,6 +4,15 @@
   "description": "S3, Cloudflare R2, and MinIO object-storage adapter for RenditionKit.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanaAb-116/renditionkit.git",
+    "directory": "packages/storage-s3"
+  },
+  "bugs": {
+    "url": "https://github.com/NanaAb-116/renditionkit/issues"
+  },
+  "homepage": "https://github.com/NanaAb-116/renditionkit/tree/main/packages/storage-s3#readme",
   "sideEffects": false,
   "files": [
     "dist",

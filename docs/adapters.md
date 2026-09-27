@@ -8,7 +8,9 @@ application tables.
 Important guarantees:
 
 - `get` returns the source object key and media type.
-- `markProcessing` stores a start time so dead attempts can be reaped.
+- `markProcessing` stores a start time so dead attempts can be reaped. It may
+  return `false` to decline work when an asset is terminal or another attempt
+  owns it; returning nothing keeps simple adapters compatible.
 - `markReady` writes the output atomically and is safe to repeat.
 - `markFailed` must not overwrite an asset that already became ready.
 - `findDuplicate` is optional and defines the application's deduplication domain.

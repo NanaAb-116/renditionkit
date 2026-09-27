@@ -4,6 +4,15 @@
   "description": "Queue-neutral orchestration contracts for RenditionKit media workers.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanaAb-116/renditionkit.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/NanaAb-116/renditionkit/issues"
+  },
+  "homepage": "https://github.com/NanaAb-116/renditionkit/tree/main/packages/core#readme",
   "sideEffects": false,
   "files": [
     "dist",

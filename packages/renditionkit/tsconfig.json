@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@renditionkit/core": ["../core/src/index.ts"],
+      "@renditionkit/image": ["../image/src/index.ts"],
+      "@renditionkit/bullmq": ["../bullmq/src/index.ts"],
+      "@renditionkit/storage-s3": ["../storage-s3/src/index.ts"],
+      "@renditionkit/repository-postgres": [
+        "../repository-postgres/src/index.ts"
+      ]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}

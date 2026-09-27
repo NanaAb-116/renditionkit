@@ -111,7 +111,11 @@ export interface ProcessingFailure {
 /** Application persistence boundary. RenditionKit never assumes a database schema. */
 export interface AssetRepository {
   get(assetId: string): Promise<MediaAsset | null>;
-  markProcessing(asset: MediaAsset, context: ProcessingContext): Promise<void>;
+  /** Return false when another attempt or a terminal state owns the asset. */
+  markProcessing(
+    asset: MediaAsset,
+    context: ProcessingContext,
+  ): Promise<boolean | void>;
   markReady(
     asset: MediaAsset,
     ready: ReadyAsset,
@@ -194,4 +198,8 @@ export interface ProcessRequest {
 export type ProcessResult =
   | { status: "ready"; assetId: string; ready: ReadyAsset }
   | { status: "rejected"; assetId: string; rejection: Rejection }
-  | { status: "skipped"; assetId: string; reason: "asset_not_found" };
+  | {
+      status: "skipped";
+      assetId: string;
+      reason: "asset_not_found" | "repository_declined";
+    };

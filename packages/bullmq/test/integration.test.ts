@@ -93,6 +93,10 @@ test(
       queueName,
       defaultJobOptions: { attempts: 2, backoff: { type: "fixed", delay: 25 } },
     });
+    const concurrent = await Promise.all(
+      Array.from({ length: 10 }, () => queue.enqueue("good")),
+    );
+    assert.equal(concurrent.filter((result) => result.created).length, 1);
     const worker = createMediaWorker({
       connection,
       queueName,
@@ -101,9 +105,7 @@ test(
     });
 
     try {
-      const first = await queue.enqueue("good");
       const duplicate = await queue.enqueue("good");
-      assert.equal(first.created, true);
       assert.equal(duplicate.created, false);
       await queue.enqueue("bad");
 

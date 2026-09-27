@@ -1,0 +1,30 @@
+{
+  "name": "@renditionkit/reference",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "api": "tsx src/api.ts",
+    "worker": "tsx src/worker.ts",
+    "start:api": "node dist/api.js",
+    "start:worker": "node dist/worker.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.896.0",
+    "@renditionkit/bullmq": "workspace:*",
+    "@renditionkit/image": "workspace:*",
+    "@renditionkit/repository-postgres": "workspace:*",
+    "@renditionkit/storage-s3": "workspace:*",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/pg": "^8.15.5"
+  }
+}

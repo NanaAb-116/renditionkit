@@ -1,0 +1,48 @@
+{
+  "name": "@renditionkit/repository-postgres",
+  "version": "0.1.0",
+  "description": "Durable PostgreSQL asset repository for RenditionKit.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanaAb-116/renditionkit.git",
+    "directory": "packages/repository-postgres"
+  },
+  "bugs": {
+    "url": "https://github.com/NanaAb-116/renditionkit/issues"
+  },
+  "homepage": "https://github.com/NanaAb-116/renditionkit/tree/main/packages/repository-postgres#readme",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "schema.sql",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@types/pg": "^8.15.5",
+    "@renditionkit/core": "workspace:^",
+    "pg": "^8.16.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

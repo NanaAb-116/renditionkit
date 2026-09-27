@@ -3,6 +3,8 @@ import type { Logger, MediaRuntime } from "@renditionkit/core";
 
 export interface MediaJobData {
   assetId: string;
+  /** Internal token used to identify the winner of concurrent enqueue calls. */
+  enqueueToken?: string;
 }
 
 export interface MediaQueueOptions {

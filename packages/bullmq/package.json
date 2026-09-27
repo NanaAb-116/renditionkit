@@ -4,6 +4,15 @@
   "description": "BullMQ producer, worker, retries, dead letters, and recovery for RenditionKit.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanaAb-116/renditionkit.git",
+    "directory": "packages/bullmq"
+  },
+  "bugs": {
+    "url": "https://github.com/NanaAb-116/renditionkit/issues"
+  },
+  "homepage": "https://github.com/NanaAb-116/renditionkit/tree/main/packages/bullmq#readme",
   "sideEffects": false,
   "files": [
     "dist",

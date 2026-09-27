@@ -36,5 +36,6 @@ unrelated application state.
 ## Deploy order
 
 Deploy consumers that understand a new job schema before producers begin writing
-it. Keep job payloads small and stable; the current BullMQ payload contains only
-an asset ID, while mutable details are loaded from the durable repository.
+it. Keep job payloads small and stable; the current BullMQ payload contains an
+asset ID plus an internal enqueue-race token, while mutable asset details are
+loaded from the durable repository.
