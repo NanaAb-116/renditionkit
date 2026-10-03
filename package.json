@@ -2,7 +2,7 @@
   "name": "renditionkit-workspace",
   "version": "0.0.0",
   "private": true,
-  "description": "Extensible background processing for image and video renditions.",
+  "description": "Extensible background processing for image renditions.",
   "license": "MIT",
   "repository": {
     "type": "git",

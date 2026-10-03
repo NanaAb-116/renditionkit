@@ -1,7 +1,7 @@
 {
   "name": "renditionkit",
   "version": "0.1.1",
-  "description": "Extensible background processing for image and video renditions.",
+  "description": "Extensible background processing for image renditions.",
   "type": "module",
   "license": "MIT",
   "repository": {

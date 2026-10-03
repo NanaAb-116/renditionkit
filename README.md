@@ -1,14 +1,14 @@
 # RenditionKit
 
-Extensible background processing for image and video renditions.
+Extensible background processing for image renditions.
 
 RenditionKit separates media transformation from queues, object storage, and
 application databases. The first engine processes images with Sharp. The same
 runtime contracts are designed to support an FFmpeg video engine without
 changing an application's queue or persistence integration.
 
-> Status: early development. The self-contained `renditionkit` package is
-> published on npm. The scoped workspace packages are not published separately.
+The self-contained `renditionkit` package is published on npm. The scoped
+workspace packages are not published separately.
 
 ```sh
 npm install renditionkit @aws-sdk/client-s3
