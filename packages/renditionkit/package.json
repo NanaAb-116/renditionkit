@@ -1,7 +1,18 @@
 {
   "name": "renditionkit",
   "version": "0.1.1",
-  "description": "Extensible background processing for image renditions.",
+  "description": "Node.js image processing pipeline for responsive AVIF and WebP renditions.",
+  "keywords": [
+    "image-processing",
+    "image-resize",
+    "responsive-images",
+    "avif",
+    "webp",
+    "sharp",
+    "bullmq",
+    "s3",
+    "nodejs"
+  ],
   "type": "module",
   "license": "MIT",
   "repository": {
@@ -12,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/NanaAb-116/renditionkit/issues"
   },
-  "homepage": "https://github.com/NanaAb-116/renditionkit/tree/main/packages/renditionkit#readme",
+  "homepage": "https://renditionkit.nanaab.com",
   "sideEffects": false,
   "files": [
     "dist",

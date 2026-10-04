@@ -3,6 +3,8 @@
 The convenient, self-contained entry package for RenditionKit. It does not
 require the separately published `@renditionkit/*` packages.
 
+[Documentation and examples](https://renditionkit.nanaab.com/) · [Quick start](https://renditionkit.nanaab.com/docs/quick-start/)
+
 ```sh
 pnpm add renditionkit
 ```

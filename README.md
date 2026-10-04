@@ -2,6 +2,8 @@
 
 Extensible background processing for image renditions.
 
+[Documentation](https://renditionkit.nanaab.com/) · [Quick start](https://renditionkit.nanaab.com/docs/quick-start/) · [npm package](https://www.npmjs.com/package/renditionkit)
+
 RenditionKit separates media transformation from queues, object storage, and
 application databases. The first engine processes images with Sharp. The same
 runtime contracts are designed to support an FFmpeg video engine without
