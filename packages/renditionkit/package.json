@@ -1,6 +1,6 @@
 {
   "name": "renditionkit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js image processing pipeline for responsive AVIF and WebP renditions.",
   "keywords": [
     "image-processing",
